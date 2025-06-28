@@ -61,7 +61,7 @@ export const paymentConfig: PaymentMethodConfig[] = [
     description: "如需赞助，请发送USDT到下述钱包地址。仅支持如下链：AVAXCHAIN、ERC20、BEP20。请勿向当前地址进行任何非 USDT 的发送或者使用不支持的链发送。",
     type: "address",
     address: "0xe2bacffb78145af2e8d8fe3e28073badb7e9e56c", // 替换为您的USDT钱包地址
-    enabled: true
+    enabled: false
   },
   {
     id: "bankcard",
@@ -71,7 +71,7 @@ export const paymentConfig: PaymentMethodConfig[] = [
     bankCardNumber: "6217211302009309146", // 替换为您的银行卡号
     bankName: "中国工商银行", // 替换为您的银行名称
     accountName: "胡丁", // 替换为您的账户名
-    enabled: true
+    enabled: false
   }
 ]
 
